@@ -1,4 +1,4 @@
-# 📊 EDA Explorer
+# 📊 Interactive EDA
 
 **Interactive Streamlit app for quick and visual exploratory data analysis (EDA) with built-in datasets and upload support.**
 
@@ -64,5 +64,5 @@ The application is divided into 6 main sections:
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/eda-explorer.git
+git clone https://github.com/your-username/interactive-eda.git
 cd eda-explorer
