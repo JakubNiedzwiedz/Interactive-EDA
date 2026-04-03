@@ -131,7 +131,7 @@ with tab3:
         st.write(f"Skośność: **{skew:.3f}** | Kurtoza: **{kurt:.3f}**")
         if len(data) >= 8:
             _, p = stats.shapiro(data[:5000])
-            result = "✅ Normalny (p > 0.05)" if p > 0.05 else "❌ Nie-normalny (p ≤ 0.05)"
+            result = "Normalny (p > 0.05)" if p > 0.05 else "Nie-normalny (p ≤ 0.05)"
             st.write(f"Test Shapiro-Wilk: p = {p:.4f} — {result}")
     else:
         st.info("Brak kolumn numerycznych.")
